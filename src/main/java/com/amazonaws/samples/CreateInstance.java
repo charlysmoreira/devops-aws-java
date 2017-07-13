@@ -7,11 +7,15 @@ import com.amazonaws.services.ec2.model.RunInstancesResult;
 import com.amazonaws.services.ec2.model.Tag;
 
 /**
- * Responsavel por criar uma nova instancia na Amazon. 
+ * Responsavel por criar uma nova instancia na Amazon.
  * @author charlys
  *
  */
 public class CreateInstance {
+	//TODO Caso der erro com as credenciais:
+	// Criar nova chave e acesso no console da Amazon
+	// Copiar as chaves para windows >> preference >> AWS Toolkit e setar a chave e acesso
+	// Altera a classe AwsConfig para nova chave
 
 	public static void main(String[] args) {
 
